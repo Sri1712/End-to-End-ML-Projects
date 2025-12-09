@@ -1,2 +1,1 @@
-# End-to-End-ML-Projects
-
+# End to End ML Projects
