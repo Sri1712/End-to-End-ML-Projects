@@ -1,1 +1,3 @@
-from src.bikeSharing.config import configuration
+from src.bikeSharing import logger
+
+logger.info("Testing logger object")
