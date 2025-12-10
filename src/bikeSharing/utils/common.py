@@ -37,7 +37,6 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
 @ensure_annotations
 def create_directories(path_to_directories: list, verbose=True):
     """create list of directories
-
     Args:
         path_to_directories (list): list of path of directories
         ignore_log (bool, optional): ignore if multiple dirs is to be created. Defaults to False.
@@ -51,7 +50,6 @@ def create_directories(path_to_directories: list, verbose=True):
 @ensure_annotations
 def save_json(path: Path, data: dict):
     """save json data
-
     Args:
         path (Path): path to json file
         data (dict): data to be saved in json file
@@ -62,14 +60,11 @@ def save_json(path: Path, data: dict):
     logger.info(f"json file saved at: {path}")
 
 
-
 @ensure_annotations
 def load_json(path: Path) -> ConfigBox:
     """load json files data
-
     Args:
         path (Path): path to json file
-
     Returns:
         ConfigBox: data as class attributes instead of dict
     """
@@ -83,7 +78,6 @@ def load_json(path: Path) -> ConfigBox:
 @ensure_annotations
 def save_bin(data: Any, path: Path):
     """save binary file
-
     Args:
         data (Any): data to be saved as binary
         path (Path): path to binary file
@@ -105,7 +99,6 @@ def load_bin(path: Path) -> Any:
     data = joblib.load(path)
     logger.info(f"binary file loaded from: {path}")
     return data
-
 
 
 @ensure_annotations
