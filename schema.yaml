@@ -1,0 +1,7 @@
+COLUMNS:
+  Hours: float64
+  Scores: int64
+
+
+TARGET_COLUMN:
+  name: Scores
