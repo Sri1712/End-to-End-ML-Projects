@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Score Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Score Prediction</h2>
+    <p>Enter study hours to predict score</p>
+
+    <form action="/predict" method="post">
+        <input type="float" name="Hours" min="0" max="10" step="0.01" placeholder="Enter study hours" required>
+        <button type="submit">Predict</button>
+    </form>
+</div>
+
+</body>
+</html>
