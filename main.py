@@ -2,6 +2,9 @@ from bikeSharing import logger
 from bikeSharing.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from bikeSharing.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from bikeSharing.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from bikeSharing.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+
+
 
 STAGE_NAME = "Data Ingestion stage"
 try:
@@ -12,6 +15,7 @@ try:
 except Exception as e:
    logger.exception(e)
    raise e
+
 
 
 STAGE_NAME = "Data Validation stage"
@@ -26,11 +30,25 @@ except Exception as e:
    raise e
 
 
+
 STAGE_NAME = "Data Transformation stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
    data_transformation = DataTransformationTrainingPipeline()
    data_transformation.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+    
+except Exception as e:
+   logger(e)
+   raise e
+
+
+
+STAGE_NAME = "Model Trainer Stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+   obj = ModelTrainerTrainingPipeline()
+   obj.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     
 except Exception as e:
