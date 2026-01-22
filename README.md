@@ -100,60 +100,60 @@ This project is structured to simulate a **real-world ML lifecycle**, from exper
 
 The project follows these implementation steps:
 
-1. **Introduction**
+1. **Introduction** <br>
    Defined problem statement and project goals.
 
-2. **GitHub Repo Setup**
+2. **GitHub Repo Setup** <br>
    Repository structure, `.gitignore`, and version control.
 
-3. **Project Template Creation**
+3. **Project Template Creation** <br>
    Standardized folder layout and boilerplate files.
 
-4. **Project Setup**
+4. **Project Setup** <br>
    Environment configuration, packaging, and dependency management.
 
-5. **Project Utilities**
+5. **Project Utilities** <br>
 
    * Centralized logging
    * Custom exception handling
    * Common reusable utility functions
 
-6. **Project Workflow Design**
+6. **Project Workflow Design** <br>
    Defined ML flow from raw data to predictions.
 
-7. **Notebook Experiments**
+7. **Notebook Experiments** <br>
    EDA and baseline model experimentation (`research/`).
 
-8. **Component Implementation**
+8. **Component Implementation** <br>
 
-   * **Data Ingestion**
+   * **Data Ingestion:**
      Reads raw dataset and stores it in `artifacts/data_ingestion/`.
 
-   * **Data Validation**
+   * **Data Validation:**
      Performs schema checks and data integrity validation.
 
-   * **Data Transformation**
+   * **Data Transformation:**
      Feature preprocessing and scaling.
 
-   * **Model Training**
+   * **Model Training:**
      Trains regression model and stores artifacts.
 
-   * **Model Evaluation**
+   * **Model Evaluation:**
      Evaluates model using standard metrics.
 
-9. **Training Pipeline**
+9. **Training Pipeline** <br>
    Orchestrates all components end-to-end.
 
-10. **Prediction Pipeline**
+10. **Prediction Pipeline** <br>
     Loads trained model and generates predictions.
 
-11. **User App Implementation**
+11. **User App Implementation** <br>
     Web interface for real-time predictions.
 
-12. **Dockerization**
+12. **Dockerization** <br>
     Containerized application using Docker.
 
-13. **Deployment**
+13. **Deployment** <br>
     Ready for cloud/server deployment.
 
 ---
@@ -242,14 +242,14 @@ All generated outputs are stored in the `artifacts/` directory:
 
 This project was built as a learning-focused end-to-end ML implementation following real-world best practices.
 
----
+--
 
 ## 📫 Contact
 
-**Author:** Srilathaa Vasu
-**Email:** [sri1712lathaa@gmail.com](mailto:sri1712lathaa@gmail.com)
-**LinkedIn:** Srilathaa vasu
+**Author:** Srilathaa Vasu <br>
+**Email:** [sri1712lathaa@gmail.com](mailto:sri1712lathaa@gmail.com) <br>
+**LinkedIn:** Srilathaa vasu <br>
 
----
+--
 
 ⭐ If you find this project helpful, consider giving it a star on GitHub!
