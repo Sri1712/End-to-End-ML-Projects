@@ -242,7 +242,7 @@ All generated outputs are stored in the `artifacts/` directory:
 
 This project was built as a learning-focused end-to-end ML implementation following real-world best practices.
 
---
+---
 
 ## 📫 Contact
 
