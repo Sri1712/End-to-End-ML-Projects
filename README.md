@@ -250,6 +250,6 @@ This project was built as a learning-focused end-to-end ML implementation follow
 **Email:** [sri1712lathaa@gmail.com](mailto:sri1712lathaa@gmail.com) <br>
 **LinkedIn:** Srilathaa vasu <br>
 
---
+---
 
 ⭐ If you find this project helpful, consider giving it a star on GitHub!
